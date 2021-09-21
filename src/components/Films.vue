@@ -1,7 +1,7 @@
 <template>
     <div class="film-section">
         <div class="current-series">
-            <p>CURRENT SERIES</p>
+            <h3>CURRENT SERIES</h3>
         </div>
         <div class="film-container">
             <FilmCard 
@@ -37,7 +37,6 @@ export default {
 .film-section {
     width: 100%;
     background-color: $back-films;
-    position: absolute;
     .current-series {
         color: $white;
         font-size: 18px;
@@ -48,6 +47,9 @@ export default {
         position: relative;
         top: -20px;
         left: 15%;
+        h3 {
+            font-size: $big;
+        }
     }
     .film-container {
         display: flex;
