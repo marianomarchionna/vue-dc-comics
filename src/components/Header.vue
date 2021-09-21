@@ -49,7 +49,7 @@ export default {
     list-style: none; 
     display: flex; 
     font-size: 13px;
-    font-weight: 600; 
+    font-weight: $bold; 
     line-height: 95px;
 }
 
