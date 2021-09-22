@@ -4,6 +4,7 @@
     <Jumbotron/>
     <Films/>
     <BlueBanner/>
+    <Footer/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from '@/components/Header.vue'
 import Jumbotron from '@/components/Jumbotron.vue'
 import Films from '@/components/Films.vue'
 import BlueBanner from '@/components/BlueBanner.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     Header,
     Jumbotron,
     Films,
-    BlueBanner
+    BlueBanner,
+    Footer
   }
 }
 </script>

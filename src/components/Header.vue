@@ -22,7 +22,7 @@ export default {
     name: 'Header',
     data(){
         return{
-            links: Links.headerLinks,
+            links: Links.headerLinks
         }
     }
 }

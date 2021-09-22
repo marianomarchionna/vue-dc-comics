@@ -125,4 +125,144 @@ const filmLinks = [
       type: "graphic novel"
     }
 ]
-export default {headerLinks, filmLinks};
+
+const dcComics = [
+  {
+      text: 'Characters',
+      url: '#',
+  },
+  {
+      text: 'Comics',
+      url: '#',
+  },
+  {
+      text: 'Movies',
+      url: '#',
+  },
+  {
+      text: 'TV',
+      url: '#',
+  },
+  {
+      text: 'Games',
+      url: '#',
+  },
+  {
+      text: 'Videos',
+      url: '#',
+  },
+  {
+      text: 'News',
+      url: '#',
+  },
+]
+
+const Shop = [
+  {
+      text: 'Shop DC',
+      url: '#',
+  },
+  {
+      text: 'Shop DC Collectibles',
+      url: '#',
+  },
+]
+
+const DC = [
+  {
+      text: 'Term Of Use',
+      url: '#',
+  },
+  {
+      text: 'Privacy Policy (New)',
+      url: '#',
+  },
+  {
+      text: 'Ad Choices',
+      url: '#',
+  },
+  {
+      text: 'Advertising',
+      url: '#',
+  },
+  {
+      text: 'Jobs',
+      url: '#',
+  },
+  {
+      text: 'Subscriptions',
+      url: '#',
+  },
+  {
+      text: 'Talent Workshops',
+      url: '#',
+  },
+  {
+      text: 'CPSC Certificates',
+      url: '#',
+  },
+  {
+      text: 'Ratings',
+      url: '#',
+  },
+  {
+      text: 'Show Help',
+      url: '#',
+  },
+  {
+      text: 'Contact Us',
+      url: '#',
+  },
+]
+
+const Sites = [
+  {
+      text: 'DC',
+      url: '#',
+  },
+  {
+      text: 'MAD Magazine',
+      url: '#',
+  },
+  {
+      text: 'DC Kids',
+      url: '#',
+  },
+  {
+      text: 'DC Universe',
+      url: '#',
+  },
+  {
+      text: 'DC Power Visa',
+      url: '#',
+  },
+]
+
+const socials = [
+  {
+      name: 'Facebook',
+      icon: 'img/footer-facebook.png',
+      url: '#'
+  },
+  {
+      name: 'Twitter',
+      icon: 'img/footer-twitter.png',
+      url: '#'
+  },
+  {
+      name: 'YouTube',
+      icon: 'img/footer-youtube.png',
+      url: '#'
+  },
+  {
+      name: 'Pinterest',
+      icon: 'img/footer-pinterest.png',
+      url: '#'
+  },
+  {
+      name: 'Periscope',
+      icon: 'img/footer-periscope.png',
+      url: '#'
+  },
+]
+export default {headerLinks, filmLinks, dcComics, Shop, DC, Sites, socials};
